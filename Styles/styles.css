@@ -1,0 +1,301 @@
+main {
+    margin: auto;
+    max-width: 1170px;
+}
+
+.travel-explore {
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    width: 100%;
+    height: 31.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    column-gap: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.explore-heading {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.explore-description {
+    margin-top: -10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 676px;
+}
+
+.explore-search {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border: none;
+    outline: none;
+}
+
+.input-field,
+.primary-btn {
+    width: 10.875rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    background: #FFF;
+    padding-left: 15px;
+    border: none;
+    outline: none;
+}
+
+.primary-btn {
+    background: #FF5400;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.date-input i {
+    background: rgba(255, 255, 255, 0.30);
+    margin-left: -25px;
+}
+
+#popular-destinations {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.pop-heading h1,
+#choose-destination .choose-text h1 {
+    color: #131318;
+    text-align: left;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.pop-description,
+.pop-list {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 525px;
+}
+
+.pop-description {
+    width: 577px;
+}
+
+.pop-img {
+    max-width: 100%;
+}
+
+.pop-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    background: lightgray 50% / cover no-repeat;
+}
+
+#choose-destination {
+    text-align: center;
+    margin: 100px 0px;
+}
+
+#choose-destination .choose-text h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.choose-text p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+#choose-destination .pop-image {
+    width: 100%;
+    height: 100%;
+}
+
+.destination-row {
+    height: 300px;
+    display: grid;
+    gap: 24px;
+    margin-bottom: 24px;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 16px;
+}
+
+.destination-row1 {
+    height: 286px;
+    display: grid;
+    grid-template-columns: 374px 470px 277px;
+    gap: 24px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.destination-row2 {
+    height: 300px;
+    display: grid;
+    grid-template-columns: 473px 673px;
+    gap: 24px;
+    border-radius: 16px;
+}
+
+.maldives-destination {
+    background-image: url('../Images/Rectangle\ 5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.indonesia-destination {
+    background-image: url('../Images/Rectangle\ 8.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.srilanka-destination {
+    background-image: url('../Images/Rectangle\ 6.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.north-america-destination {
+    background-image: url('../Images/Rectangle\ 7.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.kashmir-destination {
+    background-image: url('../Images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bangladesh-destination {
+    background-image: url('../Images/Rectangle\ 10.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.bandorban-destination {
+    background-image: url('../Images/Rectangle\ 11.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.maldives-destination,
+.indonesia-destination,
+.srilanka-destination,
+.north-america-destination,
+.kashmir-destination,
+.bangladesh-destination,
+.bandorban-destination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.maldives-destination h3,
+.indonesia-destination h3,
+.srilanka-destination h3,
+.north-america-destination h3,
+.kashmir-destination h3,
+.bangladesh-destination h3,
+.bandorban-destination h3 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+
+@media screen and (max-width:576px) {
+    .travel-explore {
+        width: 100%;
+        height: 500px;
+        flex-shrink: 0;
+    }
+
+    .explore-search {
+        display: flex;
+        width: 200px;
+        height: 200px;
+        padding: 16px;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .explore-heading {
+        font-size: 22px;
+    }
+
+    .explore-description {
+        font-size: 14px;
+        width: 304px;
+    }
+
+    .input-field {
+        width: 180px;
+        height: 40px;
+    }
+
+    #popular-destinations {
+        flex-direction: column;
+    }
+
+    .pop-description,
+    .pop-list {
+        width: 335px;
+    }
+
+    .destination-row,
+    .destination-row1,
+    .destination-row2 {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .maldives-destination,
+    .indonesia-destination,
+    .srilanka-destination,
+    .north-america-destination,
+    .kashmir-destination,
+    .bangladesh-destination,
+    .bandorban-destination {
+        height: 176px;
+    }
+}
