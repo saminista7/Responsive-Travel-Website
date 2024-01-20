@@ -243,6 +243,17 @@ main {
     text-align: center;
 }
 
+
+.save-sec{
+    display: grid;
+    grid-template-columns: 474px 672px;
+    gap: 24px;
+}
+.save-left{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
 @media screen and (max-width:576px) {
     .travel-explore {
         width: 100%;
@@ -299,3 +310,5 @@ main {
         height: 176px;
     }
 }
+
+
